@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/Ekey"
+        android:background="@drawable/my_white_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Dkey"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Fkey"
+        android:background="@drawable/my_white_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Ekey"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Dkey"
+        android:background="@drawable/my_white_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Ckey"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Gkey"
+        android:background="@drawable/my_white_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Fkey"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Akey"
+        android:background="@drawable/my_white_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Gkey"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Bkey"
+        android:background="@drawable/my_white_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Akey"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/FSharp"
+        android:background="@drawable/my_black_button"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Ekey"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:id="@+id/GSharp"
+        android:background="@drawable/my_black_button"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/FSharp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/ASharp"
+        android:background="@drawable/my_black_button"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Gkey"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        android:id="@+id/Ckey"
+        android:background="@drawable/my_white_button"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/CSharp"
+        android:background="@drawable/my_black_button"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:id="@+id/DSharp"
+        android:background="@drawable/my_black_button"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/CSharp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
